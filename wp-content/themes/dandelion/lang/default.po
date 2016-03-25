@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dandelion\n"
+"Last-Translator: \n"
+"Language-Team: Pexeto\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;pex_text\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "_404_text"
+msgstr "The requested page has not been found"
+
+
+msgid "_no_posts_text"
+msgstr "No posts available"
+
+
+msgid "_no_comments_text"
+msgstr "No comments"
+
+
+msgid "_one_comment_text"
+msgstr "One comment"
+
+
+msgid "_comments_text"
+msgstr "comments"
+
+
+msgid "_leave_comment_text"
+msgstr "Leave a comment"
+
+
+msgid "_comment_name_text"
+msgstr "Name"
+
+
+msgid "_email_text"
+msgstr "Email"
+
+
+msgid "_website_text"
+msgstr "Website"
+
+
+msgid "_your_comment_text"
+msgstr "Your comment"
+
+
+msgid "_submit_comment_text"
+msgstr "Submit comment"
+
+
+msgid "_copyright_text"
+msgstr "Copyright &copy; Dandelion by Pexeto"
+
+
+msgid "_category_text"
+msgstr "Category"
+
+
+msgid "_tag_text"
+msgstr "Tag"
+
+
+
+msgid "_search_results_text"
+msgstr "Search results for"
+
+
+msgid "_no_results_text"
+msgstr "No results found. Try a different search?"
+
+
+msgid "_search_text"
+msgstr "Search"
+
+
+
+msgid "_previous_text"
+msgstr "Previous"
+
+
+
+msgid "_next_text"
+msgstr "Next"
+
+
+msgid "_more_projects_text"
+msgstr "More projects"
+
+
+msgid "_reply_text"
+msgstr "Reply"
+
+
+msgid "_message_sent_text"
+msgstr "Message sent"
+
+
+msgid "_name_error"
+msgstr "Please insert your name"
+
+
+msgid "_email_error"
+msgstr "Plese insert a valid email"
+
+
+msgid "_question_error"
+msgstr "Please insert your question"
+
+
+msgid "_empty_captcha_error"
+msgstr "Please insert the text from the image"
+
+
+msgid "_wrong_captcha_error"
+msgstr ""
+"The text you have entered did not match the text on the image. Please try "
+"again."
+
+
+msgid "_play_again_text"
+msgstr "Play again"
+
+
+msgid "_cant_hear_this_text"
+msgstr "Download sound as MP3"
+
+
+msgid "_visual_challenge_text"
+msgstr "Visual challenge"
+
+
+msgid "_audio_challenge_text"
+msgstr "Audio challenge"
+
+
+msgid "_refresh_btn_text"
+msgstr "Get a new challenge"
+
+
+msgid "_help_btn_text"
+msgstr "Help"
+
+
+msgid "_name_text"
+msgstr "Your name"
+
+
+msgid "_your_email_text"
+msgstr "Your email"
+
+
+msgid "_question_text"
+msgstr "Your question"
+
+
+msgid "_captcha_text"
+msgstr "Insert the text from the image"
+
+
+msgid "_send_text"
+msgstr "Send"
+
+
+msgid "_contact_error"
+msgstr "An error ocurred, the message was not sent."
+
+
+msgid "_at_text"
+msgstr "at"
+
+
+msgid "_by_text"
+msgstr "by"
+
+
+msgid "_in_text"
+msgstr "in"
+
+
+msgid "_read_more"
+msgstr "Read more"
+
+
+
+msgid "_learn_more"
+msgstr "Learn more"
+
+
+msgid "_showme_text"
+msgstr "Show me"
+
+
+msgid "_all_text"
+msgstr "All"
+
+#Blog page subtitle
+msgid "_posts_subtitle"
+msgstr ""
