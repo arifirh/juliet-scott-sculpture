@@ -1,1 +1,570 @@
-﻿eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7 c={1N:\'|*|\',1r:1A,2T:4(1q){c.2G();c.2f();c.22();c.2j();c.21();3(".1C").1C();c.2b(1q.P);3(\'#1q-23\').1a(\'w\',4(f){f.F();3(\'#12-1q\').23()});3(\'#12-1u-z\').I(\'.Q\',\'25\',4(){3(5).J({24:\'20\'})});3(\'.1C\').I(\'r\',\'2S\',4(){3(5).Y(\'G\')}).I(\'r\',\'2R\',4(){3(5).1k(\'G\')});c.2e();3(\'#12-1u-z\').1R(\'<r 1n="1i" 8="2P 2Q 2V" />\')},2b:4(1f){3(\'.S-q-z\').V();7 n=\'2w-31-G\',1x=\'12-S-q\',30=\'12-1T-q\',1e=(1f&&3.P(1x))?3.P(1x):\':d\',1Y=1e===\':d\'?\'a:d\':\'a[B="\'+1e+\'"]\';p(1e===\':d\'){3(\'.S-q-z:d\').14()}19{3(1e).14()}3(\'#1u\').J({2Z:\'1c\'});3(\'#q \'+1Y).13(\'l:d\').Y(n);3(\'.S-q-z\').U(4(){7 1P=\'#\'+3(5).9(\'1X\'),1s=(1f&&3.P(1P))?3.P(1P):\':d\',1W=1s===\':d\'?\'a.1D:d\':\'a.1D[B="\'+1s+\'"]\';3(5).o(\'.1T-q-z\').1M(1s).V();3(5).o(1W).13(\'l:d\').Y(n)});3(\'#q a\').w(4(f){f.F();7 B=3(5).9(\'B\');3(\'.S-q-z\').V();3(B).14();3(\'#q l\').1k(n);3(5).13(\'l:d\').Y(n);p(1f){3.P(1x,B)}});3(\'a.1D\').w(4(f){f.F();7 B=3(5).9(\'B\');3(B).14().v(\'.1T-q-z\').V();3(5).13(\'l:d\').Y(n).v(\'l\').1k(n);p(1f){7 26=\'#\'+3(5).13(\'k.S-q-z:d\').9(\'1X\');3.P(26,B)}})},2e:4(){7 1L=3(\'#1E\').o(\'X[8="\'+3(\'#1E\').L()+\'"]\').9(\'h\');3(\'#N X\').1M(\'.\'+1L).V();p(!3(\'#N X.\'+1L).m){3(\'#N\').9(\'17\',\'17\')}3(\'#1E\').2H(4(){7 2c=3(5).L(),n=3(5).o(\'X[8="\'+2c+\'"]\').9(\'h\'),1S=3(\'#N X.\'+n);p(1S.m){3(\'#N\').29(\'17\');1S.14();3(\'#N X\').1M(\'.\'+n).29(\'G\').V()}19{3(\'#N\').9(\'17\',\'17\')}})},2B:4(){3(\'#2F\').3k(\'33\')},21:4(){3(\'.3r-3p\').U(4(){3(5).I(\'a.1j-3o\',\'w\',4(f){f.F();7 $g=3(5),$R=3(5).R();$R.Y(\'G-1j\').v(\'.G-1j\').1k(\'G-1j\');$R.R().v(\'r\').9("8",$g.9(\'1t\'))})})},2f:4(){3(\'#12-1u-z\').I(\'a.2a-Z\',\'w\',4(f){f.F();p(!c.1r){3(5).o(\'.2a-28:d\').3u().28({3l:2d,1t:3(5).9(\'1t\'),39:\'\',3a:4(){c.1r=2d},37:4(){c.1r=1A}})}})},2j:4(){3(\'r.T\').2h({1J:4(27,11,2g,H){3(H).L(11);3(H).2k();3(H).v(\'.T-A\').J({1K:\'#\'+11})},1Z:4(){3(5).1p(5.8)}}).1a(\'1V\',4(){7 8=5.8;3(5).1p(8);7 2i=8===\'\'?\'34\':\'#\'+8;3(5).v(\'.T-A\').J({1K:2i})});3(\'.T-A\').2h({1J:4(27,11,2g,H){3(H).J({1K:\'#\'+11}).2k();3(H).v(\'r.T\').9("8",11)},1Z:4(){3(5).1p(3(5).v(\'r.T\').9(\'8\'))}}).1a({\'1V\':4(){3(5).1p(5.8)},\'25\':4(){3(5).J({24:\'20\'})}})},22:4(){3(\'k.18-1G\').U(4(){p(3(5).v(\'r[1n=1i]:d\').9(\'8\')===\'18\'){3(5).o(\'u\').J({1H:2z})}});3(\'k.18-1G\').1a(\'w\',4(){7 M=3(5).v(\'r[1n=1i]:d\');p(M.9(\'8\')==\'18\'){3(5).o(\'u\').2A({1H:2});M.9(\'8\',\'1G\')}19{3(5).o(\'u\').2A({1H:2z});M.9(\'8\',\'18\')}})},3f:4(2x,2E,2t){7 Z=2x,1B;3e 3d(Z,{3g:2E,3h:\'3j\',1J:4(2r,3i){1v=Z.o(\'u\').C(\'2l\');5.3c();1B=1U.3b(4(){7 C=Z.C();p(C.m<10){1v.C(C+\'.\')}19{1v.C(\'\')}},36)},35:4(2r,2s){1y=2t+\'/\'+2s;Z.v(\'r.38\').9(\'8\',1y);1v.C(\'2l\');1U.3v(1B);5.3x()}})},2G:4(){3(".2u").w(4(f){f.F();7 g=3(5),8=g.9(\'1t\'),1O=1A,n=\'G-2u\',M=3(g.13().3s(1)).v(".1i-8:d"),x=M.L(),1d=x===\'\'?[]:x.2y(\',\');g.3t(n);1O=g.3n(n);p(1O){1d.3m(8)}19{1d=3.3q(1d,4(L){2D L!=8})}x=1d.2X(\',\');M.L(x)})},2o:4(6){7 O=6.y.m;7 W=[];E(7 i=0;i<O;i++){W[i]=3(6.x[i]).9(\'8\').2y(c.1N)}7 2C=W[0].m;E(7 j=0;j<2C-1;j++){7 t=\'<l>\';E(7 i=0;i<O;i++){p(6.A&&6.y[i]===\'#\'+6.A){t+=c.1Q(W[i][j])}7 1c=W[i][j]===\'\'?\'<i>---</i>\':\'\';t+=\'<b>\'+6.1g[i]+\': </b><u h="\'+6.K[i]+\'">\'+W[i][j]+\'</u>\'+1c+\'<2n/>\'}t+=\'<k h="1m Q"></k><k h="1I Q"></k></l>\';3(6.D).1R(t)}},1Q:4(1y){2D\'<2J 2I="\'+1y+\'" />\'},2K:4(1F,16,1g,A){y=[];x=[];K=[];E(7 i=0,m=16.m;i<m;i++){y[i]=\'#\'+16[i];x[i]=\'#\'+16[i]+\'s\';K[i]=16[i]+\'2L\'}7 D=\'#\'+1F+\'2M\';7 1l=\'#\'+1F+\'2N\';6={y:y,x:x,K:K,D:D,1g:1g,1l:1l,A:A};c.2p(6)},2p:4(6){c.2o(6);3(6.1l).w(4(f){f.F();c.2v(6)});3(6.D).1a(\'32\',4(f,2w){c.1b(6)});c.2m(6)},2v:4(6){7 m=6.y.m;7 t=\'<l>\';E(7 i=0;i<m;i++){p(6.A&&6.y[i]===\'#\'+6.A){t+=c.1Q(3(6.y[i]).9("8"))}t+=\'<b>\'+6.1g[i]+\': </b><u h="\'+2Y(6.K[i])+\'">\'+3(6.y[i]).9("8")+\'</u><2n/>\'}t+=\'<k h="1m Q"></k><k h="1I Q"></l>\';3(6.D).1R(t);c.1b(6)},1b:4(6){7 O=6.y.m;7 1o=[];E(i=0;i<O;i++){1o[i]=\'\'}3(6.D+\' l\').U(4(){E(i=0;i<O;i++){1o[i]+=3(5).o(\'u.\'+6.K[i]).t()+c.1N}});E(i=0;i<O;i++){3(6.x[i]).9("8",1o[i])}},2m:4(6){3(6.D).I(\'.1I\',\'w\',4(){3(5).R("l").2q();c.1b(6)});3(6.D).I(\'.1m\',\'w\',4(){7 1h=3(5).R(\'l\');1h.o(\'i\').2q();1h.o(\'u\').U(4(){7 g=3(5),1z=g.9(\'h\'),15=g.t();g.1w(3(\'<r />\',{1n:"C",8:15,"h":1z}))});3(5).1w(3(\'<k h="2O Q"></k>\').w(4(e){e.F();1h.o(\'r\').U(4(){7 g=3(5),1z=g.9(\'h\'),15=g.9(\'8\');7 1c=15===\'\'?\'<i>---</i>\':\'\';g.1w(3(\'<u h="\'+1z+\'">\'+15+\'</u>\'+1c))});c.1b(6);3(5).1w(\'<k h="1m Q"></k>\')}))})}};3(1U).2W(4(){p(3(\'#2F\').m){2U(\'c.2B()\',3w)}});',62,220,'|||jQuery|function|this|optionsData|var|value|attr|||pexetoOptions|first||event|that|class|||div|li|length|selectedClass|find|if|navigation|input||html|span|siblings|click|hiddenIds|inputIds|container|preview|href|text|ulId|for|preventDefault|selected|el|delegate|css|spanClasses|val|hiddenInput|dandelion_home_slider_name|count|cookie|hover|parent|main|color|each|hide|data|option|addClass|button||hex|pexeto|parents|show|spanvalue|fieldIds|disabled|on|else|bind|setSliderImgChanges|none|idsArray|mainNotSel|enableCookies|labels|currentLi|hidden|style|removeClass|addButton|editButton|type|values|ColorPickerSetColor|options|dialogOpened|notSel|title|content|buttonSpan|replaceWith|mainNavCookie|imgUrl|spanclass|false|interval|sortable|tab|dandelion_home_slider|mainId|off|marginLeft|deleteButton|onSubmit|backgroundColor|savedClass|not|separator|checked|thisId|generatePreview|append|selectedOptions|sub|window|keyup|sel|id|mainSel|onBeforeShow|pointer|setStyleSelectFunc|setOnOffFunc|submit|cursor|mouseover|parentId|hsb|dialog|removeAttr|help|setTabs|selectedval|true|loadSelectedSliderNames|setHelpFunc|rgb|ColorPicker|bgColor|setColorpickFunc|ColorPickerHide|Upload|setActionButtonHandlers|br|showSavedImgData|setCommonAddFunc|remove|file|response|uploadsUrl|check|addItem|ui|element|split|49|animate|removeSavedMessage|entryCount|return|pathToPhp|saved_box|setCheckboxClickHandlers|change|src|img|setCustomFieldsFunc|_span|_list|_button|doneButton|Pexeto|Options|focusout|focusin|init|setTimeout|Panel|load|join|escape|backgroundImage|subNavCookie|tabs|sortstop|slow|transparent|onComplete|200|close|upload|closeText|open|setInterval|disable|AjaxUpload|new|loadUploader|action|name|ext|pexetofile|slideUp|autoOpen|push|hasClass|box|holder|grep|styles|get|toggleClass|clone|clearInterval|3000|enable'.split('|'),0,{}))
+﻿/**
+ * This is the JS file for the admin options page.
+ * 
+ * Author: Pexeto http://pexeto.com/
+ */
+
+var PEXETO_W = PEXETO_W || {};
+
+var pexetoOptions={
+		
+		separator:'|*|',
+		dialogOpened:false,
+	
+		/**
+		 * Inits all the functionality needed for the options panel.
+		 */
+		init:function(options) {
+	
+			pexetoOptions.setCheckboxClickHandlers();
+			pexetoOptions.setHelpFunc();
+			pexetoOptions.setOnOffFunc();
+			pexetoOptions.setColorpickFunc();
+			pexetoOptions.setStyleSelectFunc();
+			
+			jQuery(".sortable").sortable();
+			
+			pexetoOptions.setTabs(options.cookie);
+			
+			jQuery('#options-submit').bind('click', function(event){
+				event.preventDefault();
+				jQuery('#pexeto-options').submit();
+			});
+			
+			//change the cursor to pointer to all the items from the class hover when hovered
+			jQuery('#pexeto-content-container').delegate('.hover', 'mouseover', function(){
+				jQuery(this).css({cursor:'pointer'});
+			});
+			
+			//set the focus styling for inputs that are edited
+			jQuery('.sortable').delegate('input', 'focusin', function(){
+				jQuery(this).addClass('selected');
+			})
+			.delegate('input', 'focusout', function(){
+				jQuery(this).removeClass('selected');
+			});
+			
+			pexetoOptions.loadSelectedSliderNames();
+			
+			jQuery('#pexeto-content-container').append('<input type="hidden" value="Pexeto Options Panel" />');
+		},
+		
+		/**
+		 * Sets the tabs functionality for the options panel
+		 * @param enableCookies whether to use cookies for saving the latest edited location
+		 */
+		setTabs:function(enableCookies){
+			
+			jQuery('.main-navigation-container').hide();
+			
+			var selectedClass='ui-tabs-selected',
+				mainNavCookie='pexeto-main-navigation',
+				subNavCookie='pexeto-sub-navigation',
+				mainNotSel=(enableCookies && jQuery.cookie(mainNavCookie))?jQuery.cookie(mainNavCookie):':first',
+				mainSel=mainNotSel===':first'?'a:first':'a[href="'+mainNotSel+'"]';
+				
+			if(mainNotSel===':first'){
+				//no cookie has been set, show the first tab content
+				jQuery('.main-navigation-container:first').show();
+			}else{
+				//a cookie has been set, show the saved tab content
+				jQuery(mainNotSel).show();
+			}
+			
+			jQuery('#content').css({backgroundImage:'none'});
+			//style the selected navigation item
+			jQuery('#navigation '+mainSel).parents('li:first').addClass(selectedClass);
+			
+			//set the subnavigation
+			jQuery('.main-navigation-container').each(function(){
+				var thisId='#'+jQuery(this).attr('id'),
+					notSel=(enableCookies && jQuery.cookie(thisId))?jQuery.cookie(thisId):':first',
+					sel=notSel===':first'?'a.tab:first':'a.tab[href="'+notSel+'"]';
+					
+				jQuery(this).find('.sub-navigation-container').not(notSel).hide();
+				jQuery(this).find(sel).parents('li:first').addClass(selectedClass);
+			});
+			
+			
+			//set click handlers to the main navigation menu
+			jQuery('#navigation a').click(function(event){
+				event.preventDefault();
+				var href=jQuery(this).attr('href');
+				jQuery('.main-navigation-container').hide();
+				jQuery(href).show();
+				jQuery('#navigation li').removeClass(selectedClass);
+				jQuery(this).parents('li:first').addClass(selectedClass);
+				if(enableCookies){
+					jQuery.cookie(mainNavCookie,href);
+				}
+			});
+			
+			//set click handlers to the subnavigation menu
+			jQuery('a.tab').click(function(event){
+				event.preventDefault();
+				var href=jQuery(this).attr('href');
+				jQuery(href).show().siblings('.sub-navigation-container').hide();
+				jQuery(this).parents('li:first').addClass(selectedClass).siblings('li').removeClass(selectedClass);
+				if(enableCookies){
+					var parentId='#'+jQuery(this).parents('div.main-navigation-container:first').attr('id');
+					jQuery.cookie(parentId,href);
+				}
+			});
+		},
+		
+		/**
+		 * Loads the names of the sliders that correspond to the selected slider only.
+		 */
+		loadSelectedSliderNames:function(){
+			//load the slider names with the initial page load
+			var savedClass=jQuery('#dandelion_home_slider').find('option[value="'+jQuery('#dandelion_home_slider').val()+'"]').attr('class');
+			jQuery('#dandelion_home_slider_name option').not('.'+savedClass).hide();
+			if(!jQuery('#dandelion_home_slider_name option.'+savedClass).length){
+				//disable the drop down if no slider names correspond to the selected option
+				jQuery('#dandelion_home_slider_name').attr('disabled', 'disabled');
+			}
+			
+			//load the slider names when the slider type has been changed
+			jQuery('#dandelion_home_slider').change(function(){
+				var selectedval = jQuery(this).val(),
+				selectedClass=jQuery(this).find('option[value="'+selectedval+'"]').attr('class'),
+				selectedOptions=jQuery('#dandelion_home_slider_name option.'+selectedClass);
+				
+				if(selectedOptions.length){
+					//enable the drop down if disabled
+					jQuery('#dandelion_home_slider_name').removeAttr('disabled');
+					selectedOptions.show();
+					jQuery('#dandelion_home_slider_name option').not('.'+selectedClass).removeAttr('selected').hide();
+				}else{
+					//disable the drop down if no slider names correspond to the selected option
+					jQuery('#dandelion_home_slider_name').attr('disabled', 'disabled');
+				}
+				
+			});
+		},
+		
+		removeSavedMessage:function(){
+			jQuery('#saved_box').slideUp('slow');
+		},
+		
+		/**
+		 * Sets the functionality for selecting a button style-
+		 * this may be mainly used with selecting a color or a pattern for a theme.
+		 */
+		setStyleSelectFunc:function(){
+			jQuery('.styles-holder').each(function(){
+				jQuery(this).delegate('a.style-box', 'click', function(event){
+					event.preventDefault();
+					var $that=jQuery(this),
+						$parent=jQuery(this).parent();
+					$parent.addClass('selected-style').siblings('.selected-style').removeClass('selected-style');
+					$parent.parent().siblings('input').attr("value", $that.attr('title'));
+				});
+			});
+		},
+		
+		/**
+		 * Sets the help button functionality.
+		 */
+		setHelpFunc:function(){
+			jQuery('#pexeto-content-container').delegate('a.help-button', 'click', function(event){
+				event.preventDefault();
+				if(!pexetoOptions.dialogOpened){
+					jQuery(this).find('.help-dialog:first').clone().dialog({
+						autoOpen: true,
+						title: jQuery(this).attr('title'),
+						closeText: '',
+						dialogClass : 'pexeto-dialog',
+						open:function(){
+							pexetoOptions.dialogOpened=true;
+						},
+						close:function(){
+							pexetoOptions.dialogOpened=false;
+						}
+					});
+				}
+			});	
+		},
+		
+		/**
+		 * Loads the color picker for changing theme style.
+		 */
+		setColorpickFunc:function(){
+			//set the colorpciker to be opened when the input has been clicked
+			jQuery('input.color').ColorPicker({
+				onSubmit: function(hsb, hex, rgb, el) {
+					jQuery(el).val(hex);
+					jQuery(el).ColorPickerHide();
+					jQuery(el).siblings('.color-preview').css({backgroundColor:'#'+hex});
+				},
+				onBeforeShow: function () {
+					jQuery(this).ColorPickerSetColor(this.value);
+				}
+			})
+			.bind('keyup', function(){
+				var value=this.value;
+				jQuery(this).ColorPickerSetColor(value);
+				var bgColor=value===''?'transparent':'#'+value;
+				jQuery(this).siblings('.color-preview').css({backgroundColor:bgColor});
+			});
+			
+			//set the colorpicker to be opened when the preview button has been clicked
+			jQuery('.color-preview').ColorPicker({
+				onSubmit: function(hsb, hex, rgb, el) {
+					jQuery(el).css({backgroundColor:'#'+hex}).ColorPickerHide();
+					jQuery(el).siblings('input.color').attr("value", hex);
+				},
+				onBeforeShow: function () {
+					jQuery(this).ColorPickerSetColor(jQuery(this).siblings('input.color').attr('value'));
+				}
+			})
+			.bind({'keyup': function(){
+				jQuery(this).ColorPickerSetColor(this.value);
+			},'mouseover':function(){
+				jQuery(this).css({cursor:'pointer'});
+			}
+			});
+		},
+		
+		/**
+		 * Sets the functionlaity for the ON/OFF widget.
+		 */
+		setOnOffFunc:function(){
+			jQuery('div.on-off').each(function(){
+				if(jQuery(this).siblings('input[type=hidden]:first').attr('value')==='on'){
+					jQuery(this).find('span').css({marginLeft:31});
+				}
+			});
+			
+			jQuery('div.on-off').bind('click', function(){
+				var hiddenInput=jQuery(this).siblings('input[type=hidden]:first'),
+					el = jQuery(this);
+				if(hiddenInput.attr('value')=='on'){
+					jQuery(this).find('span').animate({marginLeft:2});
+					hiddenInput.attr('value', 'off');
+					el.removeClass('on').addClass('off');
+				}else{
+					jQuery(this).find('span').animate({marginLeft:31});
+					hiddenInput.attr('value', 'on');
+					el.removeClass('off').addClass('on');
+				}
+			});
+		},
+		
+		loadUploader: function(element){
+			var upload = new PEXETO_W.Upload(element);
+			upload.init();
+		},
+		
+		/**
+		 * Sets a checkbox click handler. If a checkbox is checked, then the element is
+		 * added. If the checkbox is unchecked, then the element is removed.
+		 * 
+		 * @return
+		 */
+		setCheckboxClickHandlers:function() {
+			jQuery(".check").click(function(event) {
+				event.preventDefault();
+				var that=jQuery(this),
+					value = that.attr('title'),
+				    checked = false,
+				    selectedClass='selected-check',
+				    hiddenInput= jQuery(that.parents().get(1)).siblings(".hidden-value:first"),
+				    hiddenIds=hiddenInput.val(),
+				    idsArray=hiddenIds===''?[]:hiddenIds.split(',');
+				
+				that.toggleClass(selectedClass);
+				checked = that.hasClass(selectedClass);
+				
+				if (checked) {
+					// it is checked, add the element to the list
+					idsArray.push(value);
+				} else {
+					// it is unchecked, remove the element from thr list
+					idsArray = jQuery.grep(idsArray, function(val) {
+						return val != value;
+					});
+				}
+				hiddenIds=idsArray.join(',');
+				
+				//set the value to the hidden input
+				hiddenInput.val(hiddenIds);
+
+			});
+		},
+		
+		/**
+		 * Shows the already saved data
+		 */
+		showSavedImgData : function(optionsData) {
+
+			var count = optionsData.inputIds.length;
+			var data = [];
+			var previews = [];
+			var $previewField = jQuery('#'+optionsData.mainId+'_preview');
+			for ( var i = 0; i < count; i++) {
+				data[i] = jQuery(optionsData.hiddenIds[i]).attr('value').split(pexetoOptions.separator);
+			}
+
+
+
+			if(optionsData.preview && $previewField.length){
+				previews = $previewField.val().split(pexetoOptions.separator);
+			}
+
+			var entryCount = data[0].length;
+			// goes through all the saved entries and outputs the saved data
+			for ( var j = 0; j < entryCount - 1; j++) {
+				var html = '<li>';
+				for ( var i = 0; i < count; i++) {
+					if(optionsData.preview && optionsData.inputIds[i]==='#'+optionsData.preview){
+						var imgUrl = previews.length && previews[j] ? previews[j] : data[i][j];
+						html+=pexetoOptions.generatePreview(imgUrl);
+					}
+					var none=data[i][j]===''?'<i>---</i>':''; 
+					html += '<b>' + optionsData.labels[i] + ': </b><span class="' + optionsData.spanClasses[i]+ '">' + data[i][j] + '</span>'+none+'<br/>';
+				}
+				html += '<div class="editButton hover"></div><div class="deleteButton hover"></div></li>';
+				jQuery(optionsData.ulId).append(html);
+			}
+
+		},
+		
+		generatePreview:function(imgUrl){
+			return '<img src="'+imgUrl+'" />';
+		},
+		
+		/**
+		 * Initializes the functionality for setting more complex custom fields with a possibility
+		 * for adding more types of data per item.
+		 * @param mainId - the ID of the functionality
+		 * @param fieldIds - an array that contains the IDs of all the inputs
+		 * @param labels - an array that contains the label texts for each of the fields
+		 * @param preview - if not an empty string, then it contains the ID of an image field whose value
+		 * will be used for image thumbnail of the item.
+		 */
+		setCustomFieldsFunc:function(mainId, fieldIds, labels, preview){
+			inputIds=[];
+			hiddenIds=[];
+			spanClasses=[];
+			for(var i=0, length=fieldIds.length; i<length; i++){
+				inputIds[i]='#'+fieldIds[i];
+				hiddenIds[i]='#'+fieldIds[i]+'s';
+				spanClasses[i]=fieldIds[i]+'_span';
+			}
+					
+			var ulId = '#'+mainId+'_list';
+			var addButton = '#'+mainId+'_button';
+			
+			optionsData={
+				inputIds:inputIds,
+				hiddenIds:hiddenIds,
+				spanClasses:spanClasses,
+				ulId:ulId,
+				labels:labels,
+				addButton:addButton,
+				preview:preview,
+				mainId : mainId
+			};
+
+			pexetoOptions.setCommonAddFunc(optionsData);
+		},
+		
+		/**
+		 * Calls the main functions that execute the functionality.
+		 */
+		setCommonAddFunc:function(optionsData) {
+
+			
+			pexetoOptions.showSavedImgData(optionsData);
+			jQuery(optionsData.addButton).click(function(event) {
+				event.preventDefault();
+				pexetoOptions.addItem(optionsData);
+			});
+
+			jQuery(optionsData.ulId).bind('sortstop', function(event, ui) {
+				pexetoOptions.setSliderImgChanges(optionsData);
+			});
+
+			pexetoOptions.setActionButtonHandlers(optionsData);
+		},
+		
+		/**
+		 * Adds a new item to the list.
+		 */
+		addItem:function(optionsData) {
+
+			var length = optionsData.inputIds.length;
+
+			var html = '<li>';
+			for ( var i = 0; i < length; i++) {
+				if(optionsData.preview && optionsData.inputIds[i]==='#'+optionsData.preview){
+					html+=pexetoOptions.generatePreview(jQuery(optionsData.inputIds[i]).val());
+				}
+				html += '<b>' + optionsData.labels[i] + ': </b><span class="' + escape(optionsData.spanClasses[i]) + '">' + jQuery(optionsData.inputIds[i]).val() + '</span><br/>';
+			}
+			html += '<div class="editButton hover"></div><div class="deleteButton hover"></li>';
+
+			jQuery(optionsData.ulId).append(html);
+			pexetoOptions.setSliderImgChanges(optionsData);
+
+		},
+		
+		/**
+		 * Refreshes the output data after an item has been added/removed.
+		 */
+		setSliderImgChanges:function(optionsData) {
+			var count = optionsData.inputIds.length;
+			var values = [];
+
+			for (i = 0; i < count; i++) {
+				values[i] = '';
+			}
+
+			jQuery(optionsData.ulId + ' li').each(
+					function() {
+						for (i = 0; i < count; i++) {
+							values[i] += jQuery(this).find('span.' + optionsData.spanClasses[i]).html() + pexetoOptions.separator;
+						}
+					});
+
+			for (i = 0; i < count; i++) {
+				jQuery(optionsData.hiddenIds[i]).val(values[i]);
+			}
+		},
+		
+	
+		/**
+		 * Sets the delete and edit buttons click event handlers.
+		 */
+		setActionButtonHandlers:function(optionsData) {
+
+			//set the delete button click handler
+			jQuery(optionsData.ulId).delegate('.deleteButton', 'click', function(){
+				jQuery(this).parent("li").remove();
+				pexetoOptions.setSliderImgChanges(optionsData);
+			});
+			
+			//set the edit button click handler
+			jQuery(optionsData.ulId).delegate('.editButton', 'click', function(){
+				var currentLi=jQuery(this).parent('li');
+				currentLi.find('i').remove();
+				currentLi.find('span').each(function(){
+					var that = jQuery(this),
+					spanclass=that.attr('class'),
+					spanvalue=that.html();
+
+					//replace the span containing the value with an input so that it can be editable
+					// that.replaceWith(jQuery('<input type="text" value="'+escape(spanvalue)+'" class="'+spanclass+'" />'));
+					that.replaceWith(jQuery('<input />', {type:"text", value:spanvalue, "class":spanclass}));
+				});
+				
+				//set the done button click handler (when done editing)
+				jQuery(this).replaceWith(jQuery('<div class="doneButton hover"></div>').click(function(e){
+					e.preventDefault();
+					currentLi.find('input').each(function(){
+						var that = jQuery(this),
+						spanclass=that.attr('class'),
+						spanvalue=that.attr('value');
+
+						var none=spanvalue===''?'<i>---</i>':''; 
+						//replace back the value from the input with a span
+						that.replaceWith(jQuery('<span class="'+spanclass+'">'+spanvalue+'</span>'+none));
+					});
+					//save the changes to the hidden inputs
+					pexetoOptions.setSliderImgChanges(optionsData);
+					jQuery(this).replaceWith('<div class="editButton hover"></div>');
+				}));
+				
+			});
+			
+		}
+};
+
+(function($){
+	PEXETO_W.Upload = function(element, options){
+		var defaults = {
+			errorText: "An error occurred, please make sure that the WordPress <strong>wp-content/uploads</strong> folder and all of its subfolders have writing permissions enabled on the server.",
+			classes: {
+				loading: "btn-loading",
+				error: "option-error"
+			}
+		};
+		this.$btn = element;
+		this.options = $.extend(defaults, options);
+	};
+
+	var upload_proto = PEXETO_W.Upload.prototype;
+
+	upload_proto.init = function(){
+		var $btn = this.$btn;
+		
+		this.$input = this.$btn.siblings('input[type="text"]:first');
+
+		$btn.on('click', $.proxy(this._doOnButtonClick, this));
+	};
+
+
+	upload_proto._doOnButtonClick = function(){
+		var self = this;
+		// this.$fileInput.click();
+		
+		var mediaControl = {
+				// Initializes a new media manager or returns an existing frame.
+				// @see wp.media.featuredImage.frame()
+			frame: function() {
+			if ( this._frame )
+				return this._frame;
+			 
+			this._frame = wp.media({
+				title: 'Select Image',
+				library: {
+					type: 'image'
+				},
+				button: {
+					text: 'Select Image'
+				},
+				multiple: false
+			});
+			this._frame.on( 'open', this.updateFrame ).state('library').on( 'select', this.select );
+			return this._frame;
+			},
+			select: function(a) {
+				var selection = this.frame.state().get('selection');
+
+
+				if( selection )
+				{
+					var i = 0;
+					
+					selection.each(function(attachment){
+
+						self.$input.val(attachment.attributes.url);
+
+					});
+
+				}
+				
+				},
+				updateFrame: function() {
+				// Do something when the media frame is opened.
+				}
+			};
+
+			mediaControl.frame().open();
+	};
+
+})(jQuery);
+
+
+
+
+
+jQuery(window).load(function(){
+	//remove the "Options Saved" message after 3 seconds
+	if(jQuery('#saved_box').length){
+	setTimeout('pexetoOptions.removeSavedMessage()', 3000);
+	}
+});
+
+

@@ -9,7 +9,9 @@
  */
 
 include_once( ABSPATH . 'wp-admin/includes/class-wp-upgrader.php' );
-include_once( 'class-envato-protected-api.php' );
+if ( !class_exists( 'Envato_Protected_API' ) ) {
+    include_once( 'class-envato-protected-api.php' );
+}
 
 if ( class_exists( 'Theme_Upgrader' ) && ! class_exists( 'Envato_WordPress_Theme_Upgrader' ) ) {
 
@@ -36,7 +38,7 @@ if ( class_exists( 'Theme_Upgrader' ) && ! class_exists( 'Envato_WordPress_Theme
             $this->installation_feedback = array();
             $this->username              = $username;
             $this->api_key               = $api_key;
-            $this->api                   = &new Envato_Protected_API( $this->username, $this->api_key );
+            $this->api                   = new Envato_Protected_API( $this->username, $this->api_key );
         }
         
         /**
@@ -65,11 +67,15 @@ if ( class_exists( 'Theme_Upgrader' ) && ! class_exists( 'Envato_WordPress_Theme
             }
             
             if ( empty($theme_name) ) {
-                $theme_name = get_current_theme();
+                $theme_name = function_exists( 'wp_get_theme' ) ? wp_get_theme()->Name : get_current_theme();
             }
             
             $purchased_themes             = $this->filter_purchased_themes_by_name($purchased_themes, $theme_name);
-            $result->updated_themes       = $this->get_updated_themes(get_themes(), $purchased_themes);
+            if ( function_exists( 'wp_get_themes' ) )
+                $themes_list = wp_get_themes();
+            else
+                $themes_list = get_themes();
+            $result->updated_themes       = $this->get_updated_themes($themes_list, $purchased_themes);
             $result->updated_themes_count = count($result->updated_themes);
             
             return $result; 
@@ -223,7 +229,10 @@ if ( class_exists( 'Theme_Upgrader' ) && ! class_exists( 'Envato_WordPress_Theme
 
         protected function is_theme_installed($theme_name) 
         {
-            $installed_themes = get_themes();
+            if ( function_exists( 'wp_get_themes' ) )
+                $installed_themes = wp_get_themes();
+            else
+                $installed_themes = get_themes();
             foreach($installed_themes as $entry) 
             {
                 if (strcmp($entry['Name'], $theme_name) == 0) {
@@ -261,7 +270,7 @@ if ( class_exists( 'Theme_Upgrader' ) && ! class_exists( 'Envato_WordPress_Theme
         {
             if ((int)ini_get("max_execution_time") <  ETU_MAX_EXECUTION_TIME)
             {
-                ini_set("max_execution_time", ETU_MAX_EXECUTION_TIME);
+                set_time_limit( ETU_MAX_EXECUTION_TIME );
             }
 
             $r['timeout'] = ETU_MAX_EXECUTION_TIME;

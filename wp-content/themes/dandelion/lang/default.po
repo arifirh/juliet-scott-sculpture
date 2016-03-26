@@ -202,3 +202,7 @@ msgstr "All"
 #Blog page subtitle
 msgid "_posts_subtitle"
 msgstr ""
+
+msgid "_share_text"
+msgstr ""
+

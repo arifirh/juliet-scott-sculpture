@@ -1,67 +1,105 @@
-	body{
-		line-height:1.6em;
-	}
-
-	.update-nag { 
-		display: none; 
-	}
-	#instructions {
-		max-width: 670px;
-	}
-	h3.title {
-		margin: 30px 0 0 0; 
-		padding: 30px 0 0 0; 
-		border-top: 1px solid #ddd;
-	}
-
-	.two-columns{
-		width:320px;
-		margin-right: 20px;
-		float: left;
-	}
-
-	.no-margin{
-		margin-right: 0px;
-	}
-
-	#manual-instructions, #no-details{
-		display: none;
-		margin-bottom: -7px;
-	}
-
-	input.button-primary, button.button-primary, a.button-primary {
-  border-color: #206787;
-  -webkit-border-radius: 7px;
--moz-border-radius: 7px;
-border-radius: 7px;
-  padding: 7px 15px;
-  margin:15px 0;
-    display: block;
-    max-width: 170px;
-    text-align: center;
-}
-
-h3 {
-  font-size: 1.7em;
-  font-weight: normal;
-}
-
-#changelog li{
-	background-image: url(../images/dblue.gif);
-background-repeat: no-repeat;
-background-position: 0px 2px; 
-padding-left:20px;
-}
-
-#changes-title {
-    line-height: 0;
-    padding-top: 20px;
-}
-
-#confirm-update{
-	display: none;
-}
-
-.ui-dialog .ui-state-focus span {
-  color: #21759B;
+	body{
+		line-height:1.6em;
+	}
+
+	.update-nag { 
+		display: none; 
+	}
+	#instructions {
+		max-width: 670px;
+	}
+	h3.title {
+		margin: 30px 0 0 0; 
+		padding: 30px 0 0 0; 
+		border-top: 1px solid #ddd;
+	}
+
+	.two-columns{
+		width:320px;
+		margin-right: 20px;
+		float: left;
+	}
+
+	.no-margin{
+		margin-right: 0px;
+	}
+
+	#manual-instructions, #no-details{
+		display: none;
+		margin-bottom: -7px;
+	}
+
+	input.button-primary, button.button-primary, a.button-primary {
+  border-color: #206787;
+  -webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+  padding: 7px 15px;
+  margin:15px 0;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+#changelog li{
+	background-image: url(../images/dblue.gif);
+background-repeat: no-repeat;
+background-position: 0px 2px; 
+padding-left:20px;
+}
+
+#changes-title {
+    line-height: 0;
+    padding-top: 20px;
+}
+
+#confirm-update{
+	display: none;
+}
+
+.ui-dialog .ui-state-focus span {
+  color: #21759B;
+}
+
+div.pexeto-dialog {
+  z-index: 10000000;
+  padding:6px;
+}
+
+body .pexeto-dialog .ui-dialog-titlebar-close {
+    background: url("../images/close.png") no-repeat scroll 0 0 / 20px 20px transparent;
+    border-width: 0;
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    width: 20px;
+    margin:0;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #c82430;
+	padding: 0;
+}
+.pexeto-dialog .ui-dialog-titlebar-close .ui-button-text{
+	display: none;
+}
+
+.pexeto-dialog .ui-icon-closethick{
+	background: none;
+}
+
+
+
+div.pexeto-dialog div.ui-dialog-content{
+	background-color: #fff;
+}
+
+div.pexeto-dialog .ui-dialog-buttonpane{
+	margin-top: -5px;
 }
